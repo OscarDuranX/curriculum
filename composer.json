@@ -10,5 +10,10 @@
             "name": "Oscar Duran",
             "email": "xoscarduranx@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+       "psr-4": {
+            "Scool\\Curriculum\\": "src/"
+        }
+    }
 }
