@@ -21,7 +21,7 @@ class CurriculumServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadMigrations();
-        $this->publishFactories()
+        $this->publishFactories();
 
     }
 
